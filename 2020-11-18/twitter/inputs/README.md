@@ -61,3 +61,24 @@ svg message:
     color: rgb(101, 119, 134)
     font-size: 13px
 
+Copy:
+
+```
+About
+Help Center
+Terms of Service
+Privacy Policy
+Cookie Policy
+Ads info
+Blog
+Status
+Careers
+Brand Resources
+Advertising
+Marketing
+Twitter for Business
+Developers
+Directory
+Settings
+© 2020 Twitter, Inc.
+```
