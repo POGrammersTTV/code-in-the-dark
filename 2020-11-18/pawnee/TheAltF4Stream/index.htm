@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 100%;
+      }
+
+      header {
+        display: flex;
+      }
+
+      header div {
+        flex-grow: 1;
+      }
+
+      .header {
+        background-color: rgb(47, 47, 47);
+      }
+
+      .content {
+        width: 971px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .flex-grow {
+        flex-grow: 1;
+      }
+
+      .grid {
+        display: grid;
+      }
+
+      .section {
+        background-color: darkgrey;
+      }
+
+      .main {
+        background-color: burlywood;
+        display: grid;
+      }
+
+      .navigation {
+        display: flex;
+      }
+
+      .footer {
+        background-color: cadetblue;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="content">
+        <div>some random iframe</div>
+        <img src="./images/parks-and-rec.gif" />
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="content main">
+        <div class="navigation">
+          <div>About</div>
+          <div>Media</div>
+          <div>Government</div>
+          <div>Get Involved</div>
+          <div>Shop</div>
+        </div>
+
+        <div class="flex flex-grow">
+          <div class="grid">
+            <img src="https://www.pawneeindiana.com/wp-content/themes/g6f07bu02zdv3txfv7a8t621759/files/css/img/city-of-pawnee.jpg" />
+            <div>Recent Updates</div>
+            <div><img src="http://pawneeindiana.com/wp-content/themes/g6f07bu02zdv3txfv7a8t621759/files/images/leslie_office.jpg" /></div>
+          </div>
+          <div class="grid">
+            <h3>Final Edition – The May 2014 Newsletter</div>
+            <p>
+              Read Leslie Knope’s final newsletter as head of Pawnee’s Parks and
+              Recreation Department
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-grow">
+          <div class="grid">
+            <h3>Featured Content</h3>
+            <div class="flex">
+              <div class="grid">
+                <img src="http://pawneeindiana.com/wp-content/themes/g6f07bu02zdv3txfv7a8t621759/files/images/off2_401_06a.jpg" />
+                <div>Solitude of Nature by Ron Swanson</div>
+              </div>
+              <div class="grid">
+                <img src="https://www.pawneeindiana.com/wp-content/uploads/2020/04/best-rv-inverter.jpg" />
+                <div>Palmgear.com has reviewed some good RV inverters.</div>
+              </div>
+              <div class="grid">
+                <img src="http://pawneeindiana.com/wp-content/themes/g6f07bu02zdv3txfv7a8t621759/files/images/16.jpg" />
+                <div>Ballot Measure Results</div>
+              </div>
+              <div class="grid">
+                <img src="https://www.pawneeindiana.com/wp-content/uploads/2020/04/best-motorcycle-intercom.jpg" />
+                <div>Bikersrights.com has some very good motorcycle helmet communication systems reviews</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content">
+        <div class="flex">
+          <div>Privacy Policy</div>
+          <div>Terms</div>
+          <div>Technical Support</div>
+          <div>Contact Us</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
