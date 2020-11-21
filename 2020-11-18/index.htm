@@ -2,24 +2,93 @@
 <html>
 <head>
     <title>code in the dark 2020-11-18</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        .twitter, .pawnee {
+            display: none;
+        }
+        #twitter-radio:checked ~ .twitter {
+            display: inline-block;
+        }
+        #pawnee-radio:checked ~ .pawnee {
+            display: inline-block;
+        }
+        html {
+          height: 100%;
+          width: 100%;
+        }
+        body {
+          display: table;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 6px;
+        }
+        body > div {
+          display: table-row;
+          margin: 5px;
+        }
+        iframe {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+        form {
+          display: inline-block;
+        }
+    </style>
 </head>
 <body>
-  <h3>twitter</h1>
-  <ul>
-    <li><a href="twitter/Its_Jay_Phillz">Its_Jay_Phillz</a></li>
-    <li><a href="twitter/VapeJuiceJordan">VapeJuiceJordan</a></li>
-    <li><a href="twitter/anthonywritescode">anthonywritescode</a></li>
-    <li><a href="twitter/juiceboxhero">juiceboxhero</a></li>
-    <li><a href="twitter/melkeydev">melkeydev</a></li>
-    <li><a href="twitter/nyxiative">TheAltF4Stream</a></li>
-    <li><a href="twitter/nyxiative">nyxiative</a></li>
-  </ul>
-  <h3>pawnee</h3>
-  <ul>
-    <li><a href="pawnee/anthonywritescode">anthonywritescode</a></li>
-    <li><a href="pawnee/VapeJuiceJordan">VapeJuiceJordan</a></li>
-    <li><a href="pawnee/TheAltF4Stream">TheAltF4Stream</a></li>
-    <li><a href="pawnee/juiceboxhero">juiceboxhero</a></li>
-    <li><a href="pawnee/Its_Jay_Phillz">Its_Jay_Phillz</a></li>
+  <div>
+    <input type="radio" name="sel" id="twitter-radio" checked>
+    <label for="twitter-radio">twitter</label>
+    <input type="radio" name="sel" id="pawnee-radio">
+    <label for="pawnee-radio">pawnee</label>
+    <div class="twitter">
+      <form action="twitter/Its_Jay_Phillz/index.htm" method="get" target="_frame">
+        <input type="submit" value="Its_Jay_Phillz">
+      </form>
+      <form action="twitter/VapeJuiceJordan/index.html" method="get" target="_frame">
+        <input type="submit" value="VapeJuiceJordan">
+      </form>
+      <form action="twitter/anthonywritescode/index.htm" method="get" target="_frame">
+        <input type="submit" value="anthonywritescode">
+      </form>
+      <form action="twitter/juiceboxhero/index.htm" method="get" target="_frame">
+        <input type="submit" value="juiceboxhero">
+      </form>
+      <form action="twitter/melkeydev/index.htm" method="get" target="_frame">
+        <input type="submit" value="melkeydev">
+      </form>
+      <form action="twitter/TheAltF4Stream/index.htm" method="get" target="_frame">
+        <input type="submit" value="TheAltF4Stream">
+      </form>
+      <form action="twitter/nyxiative/index.html" method="get" target="_frame">
+        <input type="submit" value="nyxiative">
+      </form>
+    </div>
+    <div class="pawnee">
+      <form action="pawnee/anthonywritescode/index.html" method="get" target="_frame">
+        <input type="submit" value="anthonywritescode">
+      </form>
+      <form action="pawnee/VapeJuiceJordan/index.htm" method="get" target="_frame">
+        <input type="submit" value="VapeJuiceJordan">
+      </form>
+      <form action="pawnee/TheAltF4Stream/index.htm" method="get" target="_frame">
+        <input type="submit" value="TheAltF4Stream">
+      </form>
+      <form action="pawnee/juiceboxhero/index.htm" method="get" target="_frame">
+        <input type="submit" value="juiceboxhero">
+      </form>
+      <form action="pawnee/Its_Jay_Phillz/index.htm" method="get" target="_frame">
+        <input type="submit" value="Its_Jay_Phillz">
+      </form>
+    </div>
+  </div>
+  <div style="position: relative; height: 100%;">
+    <iframe src="about:blank" name="_frame"></iframe>
+  </div>
 </body>
 </html>
