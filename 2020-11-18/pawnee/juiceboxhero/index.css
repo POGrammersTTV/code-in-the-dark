@@ -1,0 +1,77 @@
+body {
+  background-image: url ("page.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  alight-content: center;
+  font-size: 14px;
+}
+
+#parks {
+  width: 970px;
+  height: 100px;
+  text-align: right;
+}
+
+#nav {
+  height: 30px;
+  width: 970px;
+  padding-top: 100px;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #e9eae0;
+  font-size: 24px;
+}
+
+#cityname {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+}
+#pawnee {
+  color: #e9eae0;
+}
+#indiana {
+  color: #414142;
+}
+
+#masthead {
+  width: 970px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+#masthead_image {
+  width: 100%;
+  height: auto;
+}
+
+#content {
+  width: 970px;
+  background-color: #e9eae0;
+}
+
+#footer {
+  font-size: 10px;
+  color: white;
+}
+
+#footer span {
+  padding: 10 px;
+}
+
+h2,
+h3 {
+  color: steelblue;
+}
+
+#featured {
+  display: flex;
+}
+
