@@ -1,0 +1,69 @@
+body {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#left {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#right {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.brand .logo {
+    width: 40px;
+    height: 40px;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+}
+
+.btn-twitter-blue,
+.text-twitter-blue {
+    color: rgb(29, 161, 242)
+}
+
+.btn-white,
+.text-white {
+    color: #fff;
+}
+
+.text-join {
+    font-size: 19px;
+}
+
+footer {
+    color: #333;
+}
+
+footer a {
+    display: inline-block;
+}
+
+.headline-row {
+    display: flex;
+    flex-direction: row;
+}
