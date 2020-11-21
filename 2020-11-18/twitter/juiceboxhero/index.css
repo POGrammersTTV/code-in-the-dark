@@ -1,0 +1,101 @@
+body {
+  background-color: white;
+}
+
+#left {
+  background-color: #71c9f8;
+  width: 50%;
+  height: 95%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#right {
+  width: 50%;
+  height: 95%;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#foot {
+  width: 100%;
+  height: 5%;
+  position: fixed;
+  bottom: 0;
+}
+
+#twitter {
+  position: fixed;
+  width: 85%;
+  z-index: 2;
+}
+#calls {
+  margin: auto;
+  width: 50%;
+  text-align: left;
+  color: white;
+  font-size: 19px;
+  z-index: 3;
+}
+#calls span {
+  padding: 2%;
+  display: block;
+}
+
+#content {
+  padding-top: 12vh;
+  padding-left: 12vh;
+  padding-bottom: 12vh;
+}
+#bird {
+  height: 42px;
+  width: 42px;
+}
+
+#see {
+  color: rgb(20, 23, 26);
+  font-size: 30px;
+}
+
+#join {
+  color: rgb(20, 23, 26);
+  font-size: 15px;
+  padding-top: 8vh;
+}
+
+#signup {
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  background-color: #1da1f2;
+  border-radius: 12px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border-color: #1da1f2;
+}
+#login {
+  font-size: 15px;
+  padding: 5px;
+  background-color: white;
+  color: #1da1f2;
+  border-radius: 12px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border-color: #1da1f2;
+}
+
+#foot {
+  color: rgb(101, 119, 134);
+  font-size: 13px;
+}
+
+#foot span {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
